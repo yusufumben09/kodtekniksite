@@ -1,3 +1,6 @@
+/* css spaghetti */
+
+
 #btwfade {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%)
     /* black to white fade class. thought it wasnt clear enough */
@@ -41,6 +44,18 @@
         linear-gradient(#FF4E50,#40C0CB) border-box!important;
 }
 
+#mtborder{
+    border: 3px dashed rgb(225, 225, 11); 
+    background-color: black;
+}
+
+.modalbg{
+    background-image: url(../img/mountainsbg.png);
+    background-position-y: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* animasyonlar cssi */
 
 .wrapper {
@@ -52,28 +67,29 @@
 }
 
 #slide-ltr {
-    position: absolute;
+    /* position: absolute;
     left: -600px;
-    /* width: 600px;
-    height: 370px; */
+    width: 600px;
+    height: 370px;
     
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 0s;
     animation: slide 1s forwards;
-    animation-delay: 0s;
+    animation-delay: 0s; */
 }
 
 #slide-rtl {
     
-    position: absolute;
+    /* position: absolute;
     left: 600px;
-    /* width: 600px;
-    height: 370px; */
+    width: 600px;
+    height: 370px;
     
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 0s;
     animation: slide 1s forwards;
-    animation-delay: 0s;
+    animation-delay: 0s; */
+    padding-left: 20px;
 }
 
 @-webkit-keyframes slide {
