@@ -52,8 +52,9 @@
 .modalbg{
     background-image: url(../img/mountainsbg.png);
     background-position-y: -200px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 
 /* animasyonlar cssi */
