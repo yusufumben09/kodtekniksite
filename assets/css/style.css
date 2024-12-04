@@ -44,6 +44,19 @@
         linear-gradient(#FF4E50,#40C0CB) border-box!important;
 }
 
+.carouselbg{
+  background-image: radial-gradient(rgb(255, 255, 255), rgb(141, 141, 141), rgb(94, 94, 130));
+}
+
+.blurbox{
+  backdrop-filter: blur(3px);
+  box-shadow: inset 0px 0px 40px 40px rgba(127, 127, 127, 0.3),0px 0px 40px 40px rgba(127, 127, 127, 0.3);
+  background-color: rgba(127, 127, 127, 0.3);
+  border: 3px solid rgba(128, 128, 128, 0.5);
+  border-radius: 50px;
+  margin: 7em; 
+}
+
 #mtborder{
     border: 3px dashed rgb(225, 225, 11); 
     background-color: black;
@@ -101,3 +114,66 @@
 @keyframes slide {
     100% { left: 0; }
 }
+
+/* From Uiverse.io by vinodjangid07 */ 
+.socials-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 40px;
+    background-color: #2e2e3f;
+  }
+  .social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 194, 194);
+  }
+  .twitter:hover {
+    background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+  }
+  .facebook:hover {
+    background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+  }
+  .google-plus:hover {
+    background: linear-gradient(45deg, #872419, #db4a39, #ff7061);
+  }
+  .instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  .social svg {
+    fill: white;
+    height: 20px;
+  }
+  
