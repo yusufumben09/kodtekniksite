@@ -232,21 +232,49 @@
     </div>
     <hr style="width: 50%; margin: auto; text-align: center;">
     <!-- TODO !! EMERGENCYY!!!!!!!!!!!!!!!!!!!!!!!!!!   ADD VS CODE IN THE SITE!!!!!!!!1 -->
+     <script>
+      function kodgirdi(){
+      var renkgirdi = document.getElementById("renkgirdi").value;
+      var metin = document.getElementById("renklimetin");
+      var metinbaslik = document.getElementById("renklimetin2");
+
+      metinbaslik.style.color = renkgirdi;
+      metin.style.color = renkgirdi;
+      }
+     </script>
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id="koddeneme">
       
       <div class="col-lg-6 wrapper">
-        <h1 id="slide-rtl" style="position: relative;" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kendin dene</h1>
-        <p id="slide-rtl" class="lead">Tırnağın içindeki metni düzenle ve etkisini gör...</p>
+        <h1 id="renklimetin2" style="position: relative;" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kendin dene</h1>
+        <p id="renklimetin" class="lead">Tırnağın içindeki metni düzenle ve etkisini anında bu metinde gör...</p>
         
       </div>
       <div class="col-10 col-sm-8 col-lg-6">
         <!-- çalışmıyor -- Düzeltilecek -->
-        <iframe src="https://www.w3schools.com/python/trypython.asp?filename=demo_default" frameborder="0"></iframe>
+        <div class="code-editor" style="margin-left: 10em;">
+          <div class="header">
+            <span class="title">CSS</span>
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path> <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path> </g></svg>
+          </div>
+          <div class="editor-content">
+            <code class="code">
+              <p><span class="color-0">.metin </span> <span>{</span></p>
+    
+              <p class="property">
+                <span class="color-2">color</span><span>:</span>
+                <span class="color-preview"></span><span class=""><input id="renkgirdi" type="text" name="text" class="input" oninput="kodgirdi()" placeholder="Blue, Red, Orange..." value="black"></span>;
+              </p>
+
+              <span>}</span>
+            </code>
+          </div>
+        </div>          
+        
       </div>
     </div>
-    <hr style="width: 50%; margin: auto; text-align: center;">
+    <hr style="width: 70%; margin: auto; text-align: center; border: 2px solid rgb(0, 0, 0);">
      <!-- UI verseden şeyler çal -->
-     <h1 id="slide-rtl" style="position: relative; text-align: center; margin-top: 20px;" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Önemli Öğeler:</h1>
+     <h1 id="slide-rtl" style="position: relative; text-align: center; margin-top: 20px; padding-bottom: 10px;" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Önemli Öğeler:</h1>
     <div style="display: flex; justify-content: center;">
      <div class="card" style="margin: 1em;">
       <div class="card2" style="padding: 20px;">
@@ -254,8 +282,8 @@
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur dicta quod, minus eligendi molestias iure ex beatae debitis nihil rerum omnis vero quis cupiditate nobis magni eius. Enim, alias.
       </div>
     </div>
-    <div class="card" style="margin: 1em;">
-      <div class="card2">
+    <div class="card" style="margin: 1em; width: 5.5em; border-radius: 5px; background: white; border: 0; box-shadow: none;">
+      <div class="nocard2">
         <div class="loop cubes">
           <div class="item cubes"></div>
           <div class="item cubes"></div>
