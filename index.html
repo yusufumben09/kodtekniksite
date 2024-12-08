@@ -192,9 +192,7 @@
   </div>
   <hr style="border: 1px solid gray;">
     <!-- carousel son -->
-    <!-- carousel altı seyler -->
 
-    <!-- carousel altı seyler son -->
     
 
     <!-- metin iceren sagdan sola kutu 1 baslangic -->
@@ -209,11 +207,11 @@
         <img src="assets/img/kod-arama-resim.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="400" loading="lazy">
       </div>
     </div>
-    <!-- metin iceren sagdan sola kutu 1 son -->
-
-    <hr style="width: 50%; margin: auto; text-align: center;">
     
-    <!-- metin iceren sagdan sola kutu 2 baslangic -->
+
+    <hr style="width: 90%; margin: auto; text-align: center;">
+    
+    
     <div class="container col-xxl-8 px-4 py-5" id="baslik2">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -231,17 +229,18 @@
       </div>
     </div>
     <hr style="width: 50%; margin: auto; text-align: center;">
-    <!-- TODO !! EMERGENCYY!!!!!!!!!!!!!!!!!!!!!!!!!!   ADD VS CODE IN THE SITE!!!!!!!!1 -->
+    <!-- kod penceresinin girdisini uygulayan kod. -->
      <script>
       function kodgirdi(){
       var renkgirdi = document.getElementById("renkgirdi").value;
       var metin = document.getElementById("renklimetin");
       var metinbaslik = document.getElementById("renklimetin2");
 
-      metinbaslik.style.color = renkgirdi;
+      metinbaslik.style.color = renkgirdi; //başlık rengi çalışmıyo ama şimdilik yeter.
       metin.style.color = renkgirdi;
       }
      </script>
+     <!-- /kod penceresinin girdisini uygulayan kod. -->
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id="koddeneme">
       
       <div class="col-lg-6 wrapper">
@@ -272,8 +271,8 @@
         
       </div>
     </div>
-    <hr style="width: 70%; margin: auto; text-align: center; border: 2px solid rgb(0, 0, 0);">
-     <!-- UI verseden şeyler çal -->
+    <hr style="width:50%; margin: auto; text-align: center;">
+     <!-- UI verseden şeyler al -->
      <h1 id="slide-rtl" style="position: relative; text-align: center; margin-top: 20px; padding-bottom: 10px;" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Önemli Öğeler:</h1>
     <div style="display: flex; justify-content: center;">
      <div class="card" style="margin: 1em;">
@@ -306,8 +305,46 @@
       </div>
     </div>
 
-     
-    <!-- bottom unneccesary stuff -->
+    <hr style="width: 90%; margin: auto;">
+    <!-- Card gallery rotating thingy -->
+    <h1 style="text-align: center; margin-top: 1.1em;"><b>Resim galerisi:</b></h1>
+    <div class="wrapper-cards">
+      <div class="inner-cards" style="--quantity: 10;">
+        <div class="card-cards" style="--index: 0;--color-card: 142, 249, 252;">
+          <div class="img-cards">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sequi deserunt quo natus quia, totam provident explicabo. Natus, excepturi maxime cumque sed tenetur quis velit tempore recusandae id! Accusantium, ratione.</div>
+        </div>
+        <div class="card-cards" style="--index: 1;--color-card: 142, 252, 204;">
+          <div class="img-cards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut assumenda quos reiciendis explicabo suscipit natus, rerum eaque neque, magnam officia atque. Esse temporibus optio doloribus enim dolore nesciunt deserunt! Qui!</div>
+        </div>
+        <div class="card-cards" style="--index: 2;--color-card: 142, 252, 157;">
+          <div class="img-cards">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas odit est, labore ut inventore voluptatum at minus ab error? Expedita facere, quos iste ducimus provident quo nemo suscipit eius rem?</div>
+        </div>
+        <div class="card-cards" style="--index: 3;--color-card: 215, 252, 142;">
+          <div class="img-cards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non voluptatibus porro nostrum, tempora consequatur quaerat consequuntur earum ab maiores pariatur quos deserunt reiciendis! Libero ipsam ullam reiciendis distinctio cupiditate.</div>
+        </div>
+        <div class="card-cards" style="--index: 4;--color-card: 252, 252, 142;">
+          <div class="img-cards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio amet, repellat libero officiis ipsam sunt fugiat corrupti commodi, optio sint quod quasi ex omnis. Possimus ea odio saepe neque. Dignissimos!</div>
+        </div>
+        <div class="card-cards" style="--index: 5;--color-card: 252, 208, 142;">
+          <div class="img-cards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a exercitationem assumenda placeat dignissimos, aliquid harum quae, sunt dolores nulla fugiat, ipsam dolore quis accusamus nesciunt saepe inventore ipsa molestias?</div>
+        </div>
+        <div class="card-cards" style="--index: 6;--color-card: 252, 142, 142;">
+          <div class="img-cards">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita tenetur optio at vel corrupti sed ut eos vero, nemo deleniti ea nihil illo sit excepturi. Officiis qui exercitationem distinctio architecto?</div>
+        </div>
+        <div class="card-cards" style="--index: 7;--color-card: 252, 142, 239;">
+          <div class="img-cards">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, explicabo praesentium nulla sunt cupiditate asperiores, suscipit alias rem laudantium tempore consequatur unde, dolor accusantium facere at aut ad magnam! Corrupti.</div>
+        </div>
+        <div class="card-cards" style="--index: 8;--color-card: 204, 142, 252;">
+          <div class="img-cards">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quod temporibus nostrum quis illum. Alias ad blanditiis sequi deserunt, molestiae commodi sit quae laudantium consequuntur sunt error! Dicta, quo illo.</div>
+        </div>
+        <div class="card-cards" style="--index: 9;--color-card: 142, 202, 252;">
+          <div class="img-cards">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quia accusamus tenetur optio, vero itaque impedit officiis esse, dolores libero illo labore reprehenderit minus ratione dignissimos quidem distinctio praesentium. Placeat.</div>
+        </div>
+      </div>
+    </div>
+    <!-- Card gallery rotating thingy end -->
+    <hr style="width:100%; margin: auto; text-align: center; margin-top: 1em;">
+    <!-- bottom footer stuff -->
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="#carouselbox" class="nav-link px-2 text-body-secondary">Anasayfa</a></li>
